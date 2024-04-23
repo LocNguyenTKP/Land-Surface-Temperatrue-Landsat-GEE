@@ -3,8 +3,8 @@ Land Surface Temperature (LST) data derived from Landsat imagery, which can be a
 
 ## Overview
 This project utilizes Google Earth Engine to analyze Landsat 8 imagery for the Can Tho area, focusing on several key environmental indicators: Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI), Normalized Difference Built-up Index (NDBI), and Land Surface Temperature (LST). The script preprocesses the imagery, applies cloud masking, calculates the indices, and assesses correlations among them.
-* This code and the exported results of these GEE scripts:
-  [https://code.earthengine.google.com/?accept_repo=users/nguyenloctkp/github ](https://code.earthengine.google.com/?accept_repo=users%2Fdaviddaou%2Ftestdelta&scriptPath=users%2Fnguyenloctkp%2Fgithub%3ARandom%20Forest%20LULC%20Classification%20)
+* 
+<p>This code and the exported results of these GEE scripts can be accessed <a href="https://code.earthengine.google.com/?accept_repo=users%2Fdaviddaou%2Ftestdelta&scriptPath=users%2Fnguyenloctkp%2Fgithub%3ARandom%20Forest%20LULC%20Classification%20" target="_blank">here</a>.</p>
 
 ## Key Features
 ### 1. Image Processing and Scaling
