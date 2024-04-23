@@ -7,23 +7,23 @@ This project utilizes Google Earth Engine to analyze Landsat 8 imagery for the C
   [https://code.earthengine.google.com/?accept_repo=users/nguyenloctkp/github ](https://code.earthengine.google.com/?accept_repo=users%2Fdaviddaou%2Ftestdelta&scriptPath=users%2Fnguyenloctkp%2Fgithub%3ARandom%20Forest%20LULC%20Classification%20)
 
 ## Key Features
-# 1. Image Processing and Scaling
+### 1. Image Processing and Scaling
 Landsat 8 images are scaled and offset for both optical and thermal bands.
 Clouds and shadows are masked using the QA_PIXEL band to improve data quality.
-# 2. Index Calculation
+### 2. Index Calculation
 * NDVI: Indicates vegetation health.
 * NDWI: Helps in identifying water bodies.
 * NDBI: Distinguishes built-up areas.
 * LST: Calculates land surface temperature indicating heat intensity.
-# 3. Visualization and Analysis
+### 3. Visualization and Analysis
 * The script includes visualization parameters for better interpretation of the indices on the map.
 * Land surface emissivity is computed based on the fraction of vegetation.
-# 4. Export Options
+### 4. Export Options
 The code includes commented sections for exporting the processed images to Google Drive, which can be customized and used as needed.
-5. User Interface Components
+### 5. User Interface Components
 A dynamic legend for LST visualization is integrated within the Earth Engine user interface to aid in interpreting temperature variations.
 
-# Usage
+## Usage
 To run this script, users should replace placeholder values with actual region of interest coordinates and other specific parameters related to their study area. The script is modular and allows for easy adaptation to other regions or datasets.
 
 ## Contributing
